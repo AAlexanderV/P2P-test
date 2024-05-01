@@ -46,7 +46,7 @@ const p = new SimplePeer({
 
   objectMode: true,
   config: {
-    iceServers: ICE_S_1,
+    iceServers: [...ICE_S_1, ...ICE_S_2],
   },
 });
 
